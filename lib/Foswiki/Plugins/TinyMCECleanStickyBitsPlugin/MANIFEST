@@ -1,0 +1,12 @@
+data/System/TinyMCECleanStickyBitsPlugin.txt 0644
+lib/Foswiki/Plugins/TinyMCECleanStickyBitsPlugin.pm 0644
+lib/Foswiki/Plugins/TinyMCECleanStickyBitsPlugin/Core.pm 0644
+!noci
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/editor_plugin_src.js 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/editor_plugin.js 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/editor_plugin.js.gz 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/langs/en.js 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/langs/en.js.gz 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/img/clean.png 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/img/unclean.png 0644
+pub/System/TinyMCEPlugin/tinymce/jscripts/tiny_mce/plugins/foswikiclean/img/readme.txt 0644

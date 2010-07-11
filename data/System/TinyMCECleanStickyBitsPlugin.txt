@@ -1,0 +1,40 @@
+%META:TOPICPARENT{name="Plugins"}%
+---+ !TinyMCE Clean Sticky Bits Plugin
+
+%SHORTDESCRIPTION%
+
+---++ Plugin Preferences
+Provides the [[TinyMCEPlugin][TinyMCE]] plugin =foswikiclean=, which should be enabled by listing it in the [[TinyMCEPlugin#Settings][ =TINYMCEPLUGIN_ADDITIONAL_MCEPLUGINS= ]] preference setting. It provides the following toolbar buttons:
+
+   * =foswikiclean= - clean the current selection of any extraneous attributes that would cause the html2tml conversion to retain the HTML representation instead of being converted to WikiText. This is achieved in part by exporting the [[WysiwygPluginSettings][ =WYSIWYGPLUGIN_STICKYBITS= ]] preference variable to the =foswikiclean= plugin in !TinyMCE. The =foswikiclean= toolbar icon state changes to a clickable alert icon if the selection contains sticky attributes.
+
+The TinyMCEPlugin toolbar may be customised to include these buttons by listing them in the [[TinyMCEPlugin#Settings][ =TINYMCEPLUGIN_ADDITIONAL_BUTTONS1=, =TINYMCEPLUGIN_ADDITIONAL_BUTTONS2= ]], etc. preference settings.
+
+Alternatively, %TOPIC% will automatically:
+   * Add itself to the =TINYMCEPLUGIN_ADDITIONAL_PLUGINS= variable
+      * %ICON{"info"}% Inhibit this behaviour by setting =TINYMCECLEANSTICKYBITSPLUGIN_NO_AUTOLOAD = on=
+   * Insert the toolbar buttons to the right of the =tablecontrols= button, wherever that appears among the =TINYMCEPLUGIN_BUTTONS[n]= and =TINYMCEPLUGIN_ADDITIONAL_BUTTONS[n]= variables.
+      * %ICON{"info"}% Inhibit this behaviour by setting =TINYMCECLEANSTICKYBITSPLUGIN_NO_AUTOTOOLBAR = on=
+
+<!--
+One line description, required for extensions repository catalog.
+   * Set SHORTDESCRIPTION = %$SHORTDESCRIPTION%
+-->
+
+---++ Installation
+%$INSTALL_INSTRUCTIONS%
+
+---++ Plugin Info
+This plugin uses icons from [[http://www.famfamfam.com/lab/icons/silk/]]
+(see also: Foswiki:Extensions.FamFamFamContrib).
+
+|  Author: | Foswiki:Main.PaulHarvey - http://trin.org.au |
+|  Copyright: | &copy; 2010, Foswiki Contributors |
+|  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
+|  Release: | %$RELEASE% |
+|  Version: | %$VERSION% |
+|  Change&nbsp;History: | <!-- versions below in reverse order -->&nbsp; |
+|  11 Jul 2010 | Foswikitask:Item9235: Initial version |
+|  Home: | http://foswiki.org/Extensions/%TOPIC% |
+|  Support: | http://foswiki.org/Support/%TOPIC% |
+|  Development: | http://foswiki.org/Development/%TOPIC% |

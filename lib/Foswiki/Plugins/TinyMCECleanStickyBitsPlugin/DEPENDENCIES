@@ -1,0 +1,2 @@
+Foswiki::Plugins::JQueryPlugin,>=6185,perl
+Foswiki::Plugins::TinyMCEPlugin,>=8000,perl
